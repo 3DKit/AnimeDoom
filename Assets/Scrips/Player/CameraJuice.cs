@@ -15,10 +15,10 @@ public class CameraJuice : MonoBehaviour
     [SerializeField] private float fovOutSpeed = 1f;       
 
     [Header("Landing Impact (Yükseklik Tabanlı)")]
-    [SerializeField] private float minFallHeightToImpact = 1.2f; // Bu yükseklikten az düşüşlerde kamera sallanmaz
-    [SerializeField] private float heightImpactMultiplier = 0.08f; // Yükseklik başına kamera çökme miktarı
-    [SerializeField] private float maxImpactDepth = 0.5f;          // Kameranın inebileceği maks alt sınır
-    [SerializeField] private float recoverySpeed = 10f;            // Kameranın normale dönme hızı
+    [SerializeField] private float minFallHeightToImpact = 1.2f;
+    [SerializeField] private float heightImpactMultiplier = 0.08f;
+    [SerializeField] private float maxImpactDepth = 0.5f;
+    [SerializeField] private float recoverySpeed = 10f;
 
     private Vector3 originalCameraPos;
     private Vector3 impactOffset;
